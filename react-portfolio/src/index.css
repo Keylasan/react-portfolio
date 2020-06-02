@@ -11,3 +11,64 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+#pic{
+  cursor: pointer;
+  position: relative;
+  overflow:hidden;
+  background:url(/react-portfolio/src/images/keylaBack.jpg) no-repeat;
+ 
+  background-size: cover;
+  height:400px;
+  width:400px;
+
+
+  
+
+}
+
+#pic::before{
+  content: "";
+  position:absolute;
+  filter:sepia(100%);
+  opacity: 0;
+  background:url(/react-portfolio/src/images/keylaBack.jpg) no-repeat;
+  background-size: cover;
+  height:40px;
+  width:500px;
+
+}
+
+#pic:hover:before{
+  opacity:.7;
+  animation: glitch 1.5s infinite linear;
+}
+
+@keyframes glitch{
+  0%{
+    top:0;
+    background-position:12px 0;
+  }
+  20%{
+    top:80px;
+    background-position: -10px -80px;
+  }
+  40%{
+    top:160px;
+    background-position:6px -160px;
+  }
+  60%{
+    top:240px;
+    background-position: -6px -240px;
+  }
+  80%{
+    top:320px;
+    background-position:10px -320px;
+  }
+  100%{
+    top:400px;
+    background-position: -12px -400px;
+  }
+}

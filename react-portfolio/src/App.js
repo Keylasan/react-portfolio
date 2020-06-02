@@ -1,66 +1,56 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom'
-import Container from 'react-bootstrap/Container';
-import 'bootstrap/dist/css/bootstrap.css';
-import Nav from 'react-bootstrap/Nav'
+import React, { Component } from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Container from "react-bootstrap/Container";
+import "bootstrap/dist/css/bootstrap.css";
+import Nav from "react-bootstrap/Nav";
 import Navbar from "./Components/Navbar";
 import About from "./Components/About";
 import Projects from "./Components/Projects";
 import Footer from "./Components/Footer";
 import Contact from "./Components/Contact";
 
-
-
-
-
-
-
-
 class App extends Component {
-  constructor(props){
-
+  constructor(props) {
     super(props);
     this.state = {
-      title: 'Keyla Santoyo',
-      
-      navLinks:[
-      { title: 'About', path: '/'},
-      { title: 'Portfolio', path: '/portfolio'},
-      { title: 'Contact', path: '/contact'},
+      title: "Keyla Santoyo",
+
+      navLinks: [
+        { title: "About", path: "/" },
+        { title: "Portfolio", path: "/portfolio" },
+        { title: "Contact", path: "/contact" },
       ],
       home: {
-        tittle: 'portfolio',
-        subtitle: 'Check Out My Latest Projects'
+        tittle: "portfolio",
+        subtitle: "Check Out My Latest Projects",
       },
       about: {
-        title: 'Keyla Santoyo',
-        subtitle: 'Get To Know Me'
+        title: "Keyla Santoyo",
+        subtitle: "Get To Know Me",
       },
       contact: {
-        title: "Let's Create Something Together"   
-      }
-
-    }
+        title: "Let's Create Something Together",
+      },
+    };
   }
   render() {
     return (
       <Router>
         <div className="App">
           <Container className="p-0" fluid={true}>
-          <Navbar classname="border-bottom" bg="transparent" expand='lg'>'
-          <Navbar.Toggle aria-controls="navbar-toggle" />
-          <Navbar.Collapse id="navbar-toggle">
-         
-          <Route exact path="/" component={About} />
-          <div className="container">
-            <Route exact path="/about" component={About} />
-            <Route exact path="/projects" component={Projects} />
-            <Route exact path="/contact" component={Contact} />
-           </div>
-           </Navbar.Collapse>
-           </Navbar>
-           </Container>
-           <Footer />
+            <Navbar classname="border-bottom" bg="transparent" expand="lg">
+              '
+              <Navbar.Toggle aria-controls="navbar-toggle" />
+              <Navbar.Collapse id="navbar-toggle">
+                <Nav className="ml-auto">
+                  <Route exact path="/about" component={About} />
+                  <Route exact path="/" component={About} title={this.state.about.title} subtitle={this.state.about.subtitle} text={this.state.about.text}/>
+                  <Route exact path="/projects" component={Projects} />
+                  <Route exact path="/contact" component={Contact} />
+                </Nav>
+              </Navbar.Collapse>
+            </Navbar>
+          </Container>
         </div>
       </Router>
     );
