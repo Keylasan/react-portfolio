@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <Link className="navbar-brand" to="/">
-      <h1><img src="" alt="logo" />Keyla Santoyo</h1>
+      <h1>K.</h1>
       </Link>
       <div>
         <ul className="navbar-nav">
