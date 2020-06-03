@@ -5,12 +5,12 @@ import "./style.css";
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar">
       <Link className="navbar-brand" to="/">
-      <h1>K.</h1>
+      <h3>K.</h3>
       </Link>
       <div>
-        <ul className="navbar-nav">
+        <ul className="the-links">
           <li className="nav-item">
             <Link
               to="/"
@@ -28,7 +28,7 @@ function Navbar() {
               to="/profile"
               className={window.location.pathname === "/profile" ? "nav-link active" : "nav-link"}
             >
-             Profile
+             Portfolio
             </Link>
           </li>
           <li className="nav-item">
