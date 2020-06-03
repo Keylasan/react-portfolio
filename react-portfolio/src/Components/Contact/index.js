@@ -1,16 +1,30 @@
 import React from "react";
 import "./style.css";
+
 function Contact() {
   return (
-    <footer className="footer">
-      <div className="container">
-            <div className="row">
-                <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                    <p>Contact Page</p>
-                </div>
-            </div>
+    <div class="container">
+      <div className="contact-me">
+        <div className="inputs">
+          <input
+            type="text"
+            class="first"
+            name="name"
+            placeholder="Name"
+          ></input>
+          <input
+            type="text"
+            class="first"
+            name="email"
+            placeholder="Email"
+          ></input>
+          <input type="text" class="message" placeholder="Message"></input>
+          <button className="button" >
+            <span>Send</span>
+          </button>
         </div>
-    </footer>
+      </div>
+    </div>
   );
 }
 export default Contact;

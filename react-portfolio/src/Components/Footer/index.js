@@ -4,12 +4,15 @@ import Container from "react-bootstrap/Container";
 
 function Footer() {
   return (
-    <footer className="mt-5">
+   
+   <div className="center">
+      <footer className="footer">
       <Container fluid={true}>
-        <p> </p>
-  
+        <p>&copy; Copyright 2020, K.S</p>
       </Container>
     </footer>
+   </div>
+
   );
 }
 export default Footer;

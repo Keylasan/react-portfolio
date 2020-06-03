@@ -3,7 +3,6 @@ nav {
   justify-content: space-around;
   align-items: right;
   min-height: 8vh;
-
   font-family: "Poppins", sans-serif;
 }
 
@@ -30,11 +29,10 @@ nav {
 
 h3 {
   color: rgb(155, 155, 155);
-  opacity: 0.6;
   font-family: "Poppins", sans-serif;
   letter-spacing: 4px;
   text-align: center;
   margin-top: 10%;
   font-size: 44px;
-  color: rgba(142, 95, 14, 0.865);
+  color: rgba(94, 68, 23, 0.783);
 }

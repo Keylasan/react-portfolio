@@ -18,7 +18,7 @@ function About() {
             </div>
 
             <p className="heading">get to know me</p>
-            <div className="col-lg-7 col-md-7 col-sm-7">
+            <div className="col-lg-8 col-md-8 col-sm-8">
               <div className="container-text aboutme">
                 <p>
                   Hello everyone! I am a future web developer and currently a

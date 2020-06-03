@@ -19,7 +19,7 @@ body {
   height: auto;
   width: 100%;
   margin: 0 auto;
-  border: 3px solid rgba(143, 98, 21, 0.495);
+  border: 3px solid rgba(123, 88, 27, 0.509);
 }
 
 .pic::before {
@@ -100,8 +100,9 @@ p {
   background-color: #141313;
   border-style: solid;
   border-width: 3px;
-  border-color: rgba(143, 98, 21, 0.495);
+  border-color:rgba(123, 88, 27, 0.509);
   width: 100%;
   padding: 6%;
   padding-bottom: 4%;
+  
 }
