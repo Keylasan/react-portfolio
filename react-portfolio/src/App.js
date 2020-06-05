@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import "bootstrap/dist/css/bootstrap.css";
-
+import "./App.css"
 import Navbar from "./Components/Navbar";
 import About from "./Components/About";
 import Projects from "./Components/Projects";
@@ -43,13 +43,17 @@ class App extends Component {
               <Navbar.Toggle aria-controls="navbar-toggle" />
               <Navbar.Collapse id="navbar-toggle"></Navbar.Collapse>
             </Navbar>
-            <Route exact path="/" component={About} />
+           <div className="pageContainer">
+           <Route exact path="/" component={About} />
             <Route exact path="/about" component={About} />
 
             <Route exact path="/projects" component={Projects} />
             <Route exact path="/contact" component={Contact} />
-            <Footer />
+            
+           </div>
+           
           </Container>
+          <Footer />
         </div>
       </Router>
     );
