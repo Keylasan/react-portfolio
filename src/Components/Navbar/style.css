@@ -1,0 +1,38 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: right;
+  min-height: 8vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.the-links {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  margin-left: 40%;
+}
+
+.the-links a {
+  color: rgb(155, 155, 155);
+  opacity: 0.6;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.the-links li {
+  list-style: none;
+}
+
+h3 {
+  color: rgb(155, 155, 155);
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 4px;
+  text-align: center;
+  margin-top: 10%;
+  font-size: 44px;
+  color: rgba(94, 68, 23, 0.783);
+}
