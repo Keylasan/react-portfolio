@@ -5,14 +5,14 @@ import { Link } from "react-router-dom";
 function Projects() {
   return (
     <div>
-      <h1 className="title">Portfolio</h1>
+      <h1 className="titlePage">Portfolio</h1>
       <section>
-        <div className="projectsContainer">
+        <div className="project">
           <div className="row">
             <div className="col-lg-3 col-md-4">
               <Link to="https://omiinaya.github.io/Project1/"></Link>
 
-              <h2 className="title">Book Manba</h2>
+              <h2 className="titleProject1">Book Mamba</h2>
               <img
                 src={require("../../assets/project1.png")}
                 height="200px"
