@@ -4,6 +4,7 @@ import "./style.css";
 function Contact() {
   return (
     <div class="container">
+      <h1>Let's Create Something Together</h1>
       <div className="contact-me">
         <div className="inputs">
           <input

@@ -1,8 +1,7 @@
 body {
-  min-height: 100%;
+  
   background: black;
-  display: flex;
-  flex-direction: column;
+ 
 }
 .name {
   text-transform: lowercase;
@@ -96,7 +95,7 @@ p {
 }
 
 .aboutme {
-  margin: 0 auto;
+ 
   background-color: #141313;
   border-style: solid;
   border-width: 3px;
@@ -105,4 +104,9 @@ p {
   padding: 6%;
   padding-bottom: 4%;
   
+}
+
+
+.center{
+  text-align:center;
 }

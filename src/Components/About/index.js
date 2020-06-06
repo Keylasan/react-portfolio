@@ -3,15 +3,16 @@ import "./style.css";
 
 function About() {
   return (
-    <div>
+    
+      <div className="center">
       <h1 className="name">Keyla Santoyo</h1>
       <br></br>
       <section>
         <div className="container-about">
           <center>
-            <div className="col-lg-3 col-md-3 col-sm-3">
+            <div className="center col-lg-3 col-md-3 col-sm-3">
               <img
-                className="pic"
+                className="center pic"
                 src={require("../../images/keylaBack.jpg")}
                 alt=""
               />
@@ -46,15 +47,8 @@ function About() {
           </center>
         </div>
       </section>
-      <section>
-        <div className="img">
-          <div className="row">
-            <div className="col-12"></div>
-            <div></div>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }
+
 export default About;

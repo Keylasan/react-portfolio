@@ -1,0 +1,25 @@
+.projectsContainer{
+
+    color:rgb(155, 155, 155); 
+    opacity: 0.6; width: 100%; 
+    font-size: 14px;
+    padding: 20px;
+    padding-bottom: 40px; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-left: 39px;
+    word-spacing: 2px;
+
+}
+
+.title{
+
+    font-size: 55px; width: 100%;
+              padding: 25px;
+              text-transform:lowercase;
+              letter-spacing: 16px;
+              text-align: left;
+             
+              color:rgb(155, 155, 155);
+              opacity: 0.6;
+}

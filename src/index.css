@@ -1,69 +1,55 @@
 body {
- -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
 }
 
-
-
-
-
-
-.pic{
+.pic {
   cursor: pointer;
   position: relative;
-  overflow:hidden;
-  background:url(./images/keylaBack.jpg);
- 
+  overflow: hidden;
+  background: url(./images/keylaBack.jpg);
   background-size: cover;
-  height:400px;
-  width:400px;
-
-
-  
-
 }
 
-.pic::before{
+.pic::before {
   content: "";
-  position:absolute;
-  filter:sepia(100%);
+  position: absolute;
+  filter: sepia(100%);
   opacity: 0;
-  background:url(./images/keylaBack.jpg);
+  background: url(./images/keylaBack.jpg);
   background-size: cover;
-  height:40px;
-  width:500px;
-
+  height: 40px;
+  width: 500px;
 }
 
-.pic:hover:before{
-  opacity:.7;
+.pic:hover:before {
+  opacity: 0.7;
   animation: glitch 1.5s infinite linear;
 }
 
-@keyframes glitch{
-  0%{
-    top:0;
-    background-position:12px 0;
+@keyframes glitch {
+  0% {
+    top: 0;
+    background-position: 12px 0;
   }
-  20%{
-    top:80px;
+  20% {
+    top: 80px;
     background-position: -10px -80px;
   }
-  40%{
-    top:160px;
-    background-position:6px -160px;
+  40% {
+    top: 160px;
+    background-position: 6px -160px;
   }
-  60%{
-    top:240px;
+  60% {
+    top: 240px;
     background-position: -6px -240px;
   }
-  80%{
-    top:320px;
-    background-position:10px -320px;
+  80% {
+    top: 320px;
+    background-position: 10px -320px;
   }
-  100%{
-    top:400px;
+  100% {
+    top: 400px;
     background-position: -12px -400px;
   }
 }
