@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
@@ -8,6 +8,7 @@ import About from "./Components/About";
 import Projects from "./Components/Projects";
 import Footer from "./Components/Footer";
 import Contact from "./Components/Contact";
+
 
 class App extends Component {
   constructor(props) {
@@ -20,7 +21,7 @@ class App extends Component {
         { title: "Portfolio", path: "/portfolio" },
         { title: "Contact", path: "/contact" },
       ],
-      home: {
+      portfolio: {
         tittle: "portfolio",
         subtitle: "Check Out My Latest Projects",
       },
