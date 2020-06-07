@@ -13,7 +13,7 @@ function About() {
             <div className="center col-lg-3 col-md-3 col-sm-3">
               <img
                 className="center pic"
-                src={require("../../images/keylaBack.jpg")}
+                src={require("../../assets/keylaBack.jpg")}
                 alt=""
               />
             </div>

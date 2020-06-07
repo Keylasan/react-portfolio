@@ -12,7 +12,7 @@ body {
   cursor: pointer;
   position: relative;
   overflow: hidden;
-  background: url(../../images/keylaBack.jpg) no-repeat;
+  background: url(../../assets/keylaBack.jpg) no-repeat;
   display: block;
   background-size: cover;
   height: auto;
@@ -26,7 +26,7 @@ body {
   position: absolute;
   filter: sepia(100%);
   opacity: 0;
-  background: url(../../images/keylaBack.jpg) no-repeat;
+  background: url(../../assets/keylaBack.jpg) no-repeat;
   background-size: cover;
   height: 40px;
   width: 500px;

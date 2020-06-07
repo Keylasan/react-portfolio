@@ -33,17 +33,16 @@
   word-spacing: 2px;
 }
 
-.Project1{
-    font-family: "Poppins", sans-serif;
-    word-spacing: 2px;
-    text-align: center;
-    margin: 0 auto;
-    color: rgb(155, 155, 155);
-    opacity: 0.6;
-    width: 100%;
-    font-size: 14px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    padding: 20px;
-
+.Project1 {
+  font-family: "Poppins", sans-serif;
+  word-spacing: 2px;
+  text-align: center;
+  margin: 0 auto;
+  color: rgb(155, 155, 155);
+  opacity: 0.6;
+  width: 100%;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 20px;
 }

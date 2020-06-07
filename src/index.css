@@ -4,10 +4,10 @@ body {
 }
 
 .pic {
-  cursor: pointer;
+  
   position: relative;
   overflow: hidden;
-  background: url(./images/keylaBack.jpg);
+  background: url(./assets/keylaBack.jpg);
   background-size: cover;
 }
 
@@ -16,7 +16,7 @@ body {
   position: absolute;
   filter: sepia(100%);
   opacity: 0;
-  background: url(./images/keylaBack.jpg);
+  background: url(./assets/keylaBack.jpg);
   background-size: cover;
   height: 40px;
   width: 500px;
