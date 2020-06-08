@@ -5,8 +5,8 @@ function Contact() {
   return (
     <div class="container">
       <h1 className="lets">Let's Create</h1>
-      <h2 className="something">something</h2>
-      <h3 className="together">together</h3>
+      <h1 className="something">something</h1>
+      <h1 className="together">together</h1>
       <div className="contact-me">
         <div className="inputs">
           <input
