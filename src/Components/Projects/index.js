@@ -59,7 +59,7 @@ function Projects() {
 
             <div className="col-lg-3 col-md-4">
               <h2 className="Project1">Eat-Da-Burger</h2>
-              <a href="https://pumpkin-cupcake-73234.herokuapp.com/">
+              <a href="https://mysterious-earth-45336.herokuapp.com/">
                 <img
                   src={require("../../assets/burger.png")}
                   height="200px"
