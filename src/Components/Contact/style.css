@@ -80,3 +80,35 @@ input[type="text"]:focus {
   color: rgb(155, 155, 155);
   font-family: "Poppins", sans-serif;
 }
+
+
+
+.lets {
+  color: rgb(155, 155, 155);
+  opacity: 0.6;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 4px;
+  text-align: center;
+  word-spacing: 3px;
+  font-size: 20px;
+}
+
+.something{
+    color: rgb(155, 155, 155);
+    opacity: 0.6;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 4px;
+    text-align: center;
+    word-spacing: 3px;
+    font-size: 15px;
+  }
+
+  .together {
+    color: rgb(155, 155, 155);
+    opacity: 0.6;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 4px;
+    text-align: center;
+    word-spacing: 3px;
+    font-size: 10px;
+  }
